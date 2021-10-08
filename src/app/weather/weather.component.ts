@@ -55,7 +55,7 @@ export class WeatherComponent implements OnInit {
       }
       
       if(data.weather[0].id >= 500 && data.weather[0].id < 532){
-
+        this.isRain = true;
       }
       
 
